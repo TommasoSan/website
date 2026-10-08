@@ -49,6 +49,10 @@ header p {
   font-weight: 600;
 }
 
+header .secondary {
+  font-weight: normal;
+}
+
 /* Links look like normal text; square brackets in the page mark them */
 a {
   color: inherit;
