@@ -15,6 +15,11 @@ h1 {
   margin: 0 0 0.5rem;
 }
 
+h2 {
+  font-size: 1.25rem;
+  margin: 0 0 1rem;
+}
+
 /* Round photo on the right of the header */
 header img {
   float: right;
@@ -31,6 +36,61 @@ header p {
 
 a {
   color: #1a5fb4;
+}
+
+/* Sections separated by a dashed line, below the photo */
+section {
+  clear: both;
+  border-top: 1px dashed #ccc;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+}
+
+/* Paper lists */
+.papers li {
+  margin-bottom: 1.25rem;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.journal {
+  font-style: italic;
+  color: #1a5fb4;
+}
+
+.presentations {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* The "abstract" button looks like a link */
+.abstract-toggle {
+  font: inherit;
+  color: #1a5fb4;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.abstract p {
+  font-size: 0.95rem;
+  text-align: justify;
+  margin: 0.5rem 0;
+  padding-left: 0.75rem;
+  border-left: 3px solid #ddd;
+}
+
+footer {
+  clear: both;
+  border-top: 1px dashed #ccc;
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  color: #666;
 }
 
 /* On phones, put the photo above the name instead */
