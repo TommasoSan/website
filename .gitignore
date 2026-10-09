@@ -1,8 +1,9 @@
 # Claude app settings for this folder (personal, not part of the site)
 .claude/
 
-# Original uncropped photo; the site uses photo.jpg
+# Full-size photo originals; the site uses the web-sized photo.jpg
 pic.jpeg
+photo-crop.jpeg
 
 # Files Windows and macOS create on their own
 Thumbs.db

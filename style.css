@@ -1,6 +1,6 @@
 /* Layout: one narrow, centred column */
 body {
-  max-width: 760px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem 1rem;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -39,8 +39,8 @@ h2 {
 /* Round photo on the right of the header */
 header img {
   float: right;
-  width: 180px;
-  height: 180px;
+  width: 260px;
+  height: 260px;
   margin: 0 0 1rem 1.5rem;
   border-radius: 50%;
   object-fit: cover;
