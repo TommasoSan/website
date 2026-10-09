@@ -1,0 +1,10 @@
+# Claude app settings for this folder (personal, not part of the site)
+.claude/
+
+# Original uncropped photo; the site uses photo.jpg
+pic.jpeg
+
+# Files Windows and macOS create on their own
+Thumbs.db
+desktop.ini
+.DS_Store

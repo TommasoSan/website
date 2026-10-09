@@ -1,0 +1,3 @@
+# Use LF line endings for text files, in the repository and in this folder.
+# Git detects binary files (PDFs, images) automatically and leaves them alone.
+* text=auto eol=lf
